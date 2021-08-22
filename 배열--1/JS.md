@@ -47,3 +47,27 @@
     animals[5] = 'snake'
 
     animals > ['dog', 'cat', 'rabbit', '', '', 'snake']
+
+<br><br>
+
+## 배열 요소 제거하기
+
+### 1. 인덱스로 제거
+
+    배열.splice(인덱스, 제거할 요소의 개수)
+
+<br>
+
+    const animals = ['dog', 'cat', 'rabbit']
+
+    animals.splice(2, 1)
+    ["rabbit"}
+
+    animals > ["dog", "cat"}
+
+<br>
+
+### 2. 값으로 제거하기
+
+    const 인덱스 = 배열.indexOf(요소)
+    배열.splice(인덱스, 1)
