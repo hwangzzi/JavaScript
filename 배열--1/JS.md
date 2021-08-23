@@ -71,3 +71,11 @@
 
     const 인덱스 = 배열.indexOf(요소)
     배열.splice(인덱스, 1)
+
+<br>
+
+    const animals = ['dog', 'cat', 'rabbit']
+
+    const index = animals.indexOf('cat')
+
+    index > 2
