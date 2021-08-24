@@ -79,3 +79,6 @@
     const index = animals.indexOf('cat')
 
     index > 2
+    <br><br>
+
+## 자료의 비파괴 & 파괴
