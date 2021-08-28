@@ -40,3 +40,35 @@
 
 for (let i = 0; i < 반복 횟수; i++) {
 문장 }
+
+<br>
+
+     const todos = ['기상','식사',취침']
+     for (const todo of todos) {
+         console.log(`오늘의 할 일:${todo}`)
+         }
+
+<br><br>
+
+## for 반복문
+
+특정 횟수만큼 반복하고 싶을 때 사용하는 반복문
+
+    for (let i = 0; i < 반복 횟수; i++) {
+        문장 }
+
+<br>
+
+    for (let i = 0; i < 5; i++) {
+        console.log(``${i}번째 반복입니다.`) }
+
+<br><br>
+
+## while 반복문
+
+문장을 한 번만 실행하고 끝나는 것이 아니라 불 표현식 true면 계속해서 문장을 실행한다는 것입니다.
+
+        while (불 표현식) {
+    	    문장 }
+
+반복문이 무한 반복되는 것 => infinite loop
