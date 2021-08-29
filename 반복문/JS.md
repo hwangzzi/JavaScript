@@ -72,3 +72,8 @@ for (let i = 0; i < 반복 횟수; i++) {
     	    문장 }
 
 반복문이 무한 반복되는 것 => infinite loop
+
+let i - 0
+while (ture) {
+alert(`${i}번째 반복입니다.`)
+i = i + i }
