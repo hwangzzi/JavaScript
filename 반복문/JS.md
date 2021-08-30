@@ -77,3 +77,21 @@ let i - 0
 while (ture) {
 alert(`${i}번째 반복입니다.`)
 i = i + i }
+
+
+<br>
+
+    let i = 0
+    while (confirm('계속 진행하시겠습니까?')) {
+	    alert(`${i}번째 반복입니다.`)
+	    i = i + i }
+
+<br>
+
+confirm( ) 함수를 입력하면 사용자에게 확인을 받는 대화상자가 실행된다.
+
+
+
+<br>
+
+### while 반복문과 함께 배열 사용하기
