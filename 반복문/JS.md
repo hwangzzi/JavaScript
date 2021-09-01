@@ -101,3 +101,31 @@ while 반복문과 for 반복문은 서로 대체해서 사용가능
     while (i < array.length) {
     	console.log(`${i} : ${array[i]}`)
     	i++ }
+
+<br><br>
+
+## break 키워드
+
+break 키워드는 switch 조건문이나 반복문을 벗어날 때 사용하는 키워드
+
+    while (true) {
+       } 	break
+
+<br><br>
+
+    for (let i = 0; true; i++) {
+        alert(i + '번째 반복문입니다.')
+
+    const isContinue = confirm('계속 하시겠습니까?')
+    if (!isContinue) {
+    	break
+    	}
+    }
+
+    alert('프로그램 종료')
+
+<br><br>
+
+## continue 키워드
+
+continue 키워드는 반복문 안의 반복 작업을 멈추고 반복문의 처음으로 돌아가 다음 반복 작업을 진행
