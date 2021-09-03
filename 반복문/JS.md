@@ -159,3 +159,40 @@ alert(i)
 
 [1,2,3]처럼 배열이 한 겹으로 감싸진 배열 > 1차원 배열,
 [[1,2,3,], [4,5,6] 처럼 두 겹으로 감싸진 배열 > 2차원 배열
+
+<br>
+
+### 중첩 반복문 사용하기(1)
+
+    // 변수 선언
+    let output = ''
+
+    // 중첩 반복문
+    for (let i = i; i < 10; i++) {
+    	for (let j = 0; j < i; j++) {
+    	output += '*'
+    	}
+    	output += '/n'
+    	}
+
+    // 출력
+    console.log(output)
+
+<br>
+
+### 중첩 반복문 사용하기(2)
+
+    // 변수 선언
+    let output = ''
+
+    // 반복문
+    for (let i = i; i < 15; i==) {
+    	for (let j = 15; j > i; j--) {
+    	output += ' ' }
+    for (let k = 0; k < 2 * i - 1; k++) {
+    	output += '*'
+    	}
+    output += '/n'
+    }
+    // 출력합니다
+    console.log(output)
