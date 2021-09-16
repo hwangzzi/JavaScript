@@ -40,3 +40,32 @@ object, 실제로 존재하는 사물을 의미하며 이름과 값으로 구성
 
     // 메소드를 호출
     person.eat( )
+
+## 메소드 내부에서 this 사용하기
+
+    // 변수 선언
+    const pet = {
+        name: '구름',
+        eat: function (food) {
+    	 alert(this.name + '은' + food + '을 먹는다.')}
+    	 }
+
+    // 메소드 호출
+    pet.eat('밥')
+
+<br>
+
+## 동적으로 객체 속성 추가/제거
+
+### 동적으로 객체 속성 추가
+
+    // 객체 선언
+    const student = { }
+    student.이름 = '김베리'
+    student.취미 = '게임'
+    student.장래희망 = '오버워치'
+
+    // 출력
+    console.log(JSON.stringify(student, null, 2))
+
+<br>
